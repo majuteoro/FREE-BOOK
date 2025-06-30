@@ -1,0 +1,86 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial'. sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e44ff,#f39c12);
+    color:#fff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header h1 {
+text-align: center;
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+/* Seções principais */
+main {
+    text-align: center;
+}
+
+.welcome,.form-container {
+    background-color: #f5f5f5;
+    color:#222;
+    border-radius: 20px;
+    padding: 30px 20px;
+    max-width: 400px;
+    margin:0 auto 40px auto;
+    }
+
+    /*Títulos internos */
+    main h2 {
+        font-size: 24px;
+        margin-bottom 10 px;
+    }
+
+    /*Inputs e labels*/
+    label{
+        display: block;
+        text-align: left;
+        margin; 10px 0 5px;
+        font-weight: bold;
+    }
+
+    input[type="email"],
+    input[type="password"]{
+        widht: 100%;
+        padding: 12px;
+        border-radius:8px;
+        border: none;
+        background: #eee;
+        margn-bottom:15px;
+    }
+
+    /*Botões*/
+    button,
+    a.btn {
+        display: inline-block;
+        background-color: #ea580c;
+        color: white;
+        padding: 12px 20px;
+        margin: 10px;
+        text-decoration:none;
+        border-radius: 10px;
+        font-weight:bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover,
+    a.btn:hover {
+        background-color: #d946000;
+    }
+
+    /* Rodapé*/
+    footer {
+        texte-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        color: #fff;
+    }
